@@ -21,7 +21,7 @@
                 <ul>
                     <li><a href="index.html">Anasayfa</a></li>
                     <li><a href="Hakkımızda.html">Hakkımızda</a></li>
-                    <li><a href="İletişim.html">İletişim</a></li>
+                    <li><a href="İletisim.html">İletişim</a></li>
                     <li><a href="kategori.html">Kategori</a></li>
                 </ul>
             </nav>
@@ -29,7 +29,46 @@
 </header>
 
 <div>
-    <h2>Ben Kimim?</h2>
+    <div class="about">
+       
+        <div class="upper">
+         
+            <div class="image">
+              <div class="camp">
+                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/78235/tent-clipart-md.png" alt="Image" id="tent" />
+                <img src="https://thumbs.gfycat.com/LinedGoldenKentrosaurus-max-1mb.gif" alt="Image" id="fire" />
+              </div>
+            
+          </div>
+          <div class="info">
+            <h1>ABOUT</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+              nostrum excepturi unde eveniet delectus? Porro esse laudantium hic
+              ipsam sed inventore, aliquid quidem tempora rem harum quasi quia
+              corrupti dignissimos?
+            </p>
+          </div>
+        </div>
+        <!-- ------------------------------------ -->
+        <div class="lower">
+          <div class="info" id="lower-info">
+            <h1>ABOUT OUR TEAM</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+              nostrum excepturi unde eveniet delectus? Porro esse laudantium hic
+              ipsam sed inventore, aliquid quidem tempora rem harum quasi quia
+              corrupti dignissimos?
+            </p>
+          </div>
+          <div class="slider" id="lower-img">
+            <img src="https://i.pinimg.com/736x/6d/7d/b3/6d7db3a1037c8ac5b41b0ebfec293ca4.jpg" alt="Image" id="slider" />
+          </div>
+        </div>
+        <!-- ------------------------------------ -->
+      </div>
+    
+    <script src="about.js"></script>
     
 </div>
 
@@ -58,6 +97,22 @@ open.addEventListener("click", function(){
         changeIcon = true;
     }
 });
+
+let images = [
+  "https://i.pinimg.com/736x/6d/7d/b3/6d7db3a1037c8ac5b41b0ebfec293ca4.jpg",
+  "https://i.pinimg.com/550x/52/10/e4/5210e4858e732f40ef13e5010d52b1f4.jpg",
+  "https://i.pinimg.com/736x/44/08/9e/44089e56f4c65b00fffb914361f10cf4.jpg"
+];
+let slide = document.getElementById("slider");
+const slider = () => {
+  let i = 0;
+  setInterval(function () {
+    i = i < images.length - 1 ? ++i : 0;
+    slide.src = images[i];
+    console.log(i);
+  }, 2000);
+};
+slide.addEventListener("load", slider());
 </script>
 
 
