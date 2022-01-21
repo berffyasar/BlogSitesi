@@ -25,7 +25,7 @@ Route::group(['prefix'=>'/'],function (){
     Route::post('/commination',[\App\Http\Controllers\frontController::class,'sendMesage'])->name("comminationPost");
     Route::get('/category',[\App\Http\Controllers\frontController::class,'category'])->name("category.index");
     Route::get('/makaleler',[\App\Http\Controllers\frontController::class,'makaleler'])->name("makaleler");
-    Route::get('/makaleler/{id}',[\App\Http\Controllers\frontController::class,'makaleler'])->name("makalelerGet");
+    Route::get('/makaleler/{id}',[\App\Http\Controllers\frontController::class,'makalelerGet'])->name("makalelerGet");
 
     Route::get('/icerik/{id}',[\App\Http\Controllers\frontController::class,'icerik'])->name("icerik");
 

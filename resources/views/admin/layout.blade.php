@@ -58,7 +58,7 @@
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item active">
             <a class="nav-link" href="{{route("category")}}">
-                <i class="fas fa-fw fa-cog"></i>
+                <i class="fas fa-paste"></i>
                 <span>Kategoriler</span></a>
         </li>
 
