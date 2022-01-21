@@ -32,8 +32,8 @@
     <leftie>
         <a href="https://github.com/berffyasar"> <icon class="bi bi-github"></icon></a>
         <a href="https://www.linkedin.com/in/berfin-y-709683199/"><icon class="bi bi-linkedin"></icon></a>
-        <a href=""><icon class="bi bi-instagram"></icon></a>
-        <a href=""><icon class="bi bi-discord"></icon></a>
+        <a href="https://www.instagram.com/hsrtasiroglu1/"><icon class="bi bi-instagram"></icon></a>
+        <a href="https://discord.gg/WS4YPq6r"><icon class="bi bi-discord"></icon></a>
     </leftie>
 
     <rightie>

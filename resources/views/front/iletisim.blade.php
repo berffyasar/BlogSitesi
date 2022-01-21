@@ -18,7 +18,7 @@
     <div class="overlay"></div>
     <div class="container">
         <nav>
-            <h1 class="brand"><a href="index.html">B<span>E</span>RF</a></h1>
+            <h1 class="brand"><a href="index.html">B<span>L</span>OG</a></h1>
             <ul>
                 <li><a href="{{route("index")}}">Anasayfa</a></li>
                 <li><a href="{{route("about")}}">Hakkımızda</a></li>
